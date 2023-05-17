@@ -67,3 +67,11 @@ h2 {
     font-size: 10px;
     color: darkgray;
 }
+
+.name-tag {
+    color: blue;
+}
+
+.msg-text {
+    color: red;
+}

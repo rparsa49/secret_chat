@@ -1,7 +1,7 @@
 {% extends 'base.html' %} {% block content %}
 
 <div class="message-box">
-  <h2>{{code}}</h2>
+  <h2>Join Code: {{code}}</h2>
   <div class="messages" id="messages"></div>
   <div class="inputs">
     <input
@@ -25,8 +25,8 @@
   const createMessage = (name, msg) => {
     const content = `
     <div class="text">
-        <span>
-            <strong>${name}</strong>: ${msg}
+        <span class="msg-text">
+            <strong class="name-tag">${name}</strong>: ${msg}
         </span>
         <span class="muted">
             ${new Date().toLocaleString()}
